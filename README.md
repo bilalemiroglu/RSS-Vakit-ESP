@@ -1,2 +1,2 @@
 # RSS-Vakit-ESP
-Fetches the current prayer times for Istanbul from the RSS feed of the namazvakti.com and shows on ESP32 LilyGo T3 device.
+This code written in Micropython runs on the LilyGo ESP32 T3 v1.6.1 and fetches the current prayer times for Istanbul from the RSS feed of the namazvakti.com website, then displays them on the OLED screen. If it is not possible to connect to a nearby hotspot, it uses the module's AP feature to allow entering a new SSID through a web service it creates. When there is a registered SSID in its memory, at startup it directly downloads the RSS feed and starts showing the prayer times.
