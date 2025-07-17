@@ -1,3 +1,8 @@
+# --- ************************** ---
+# ---                            ---
+# ---     Bilal Emiroglu 2025    ---
+# ---                            ---
+# --- ************************** ---
 import network
 import usocket
 import time
